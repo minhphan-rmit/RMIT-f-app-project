@@ -1,0 +1,29 @@
+body {
+    font-family: Verdana;
+    background-color: #ffff;
+    margin-left: 7cm;
+    margin-right: 7cm;
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+th {
+    background-color: navy;
+    text-align: center;
+    color: white;
+}
+
+table {
+    width: 100%;
+}
+
+tr {
+    height: 50px;
+}
+
+th, td {
+    padding: 14px;
+}
