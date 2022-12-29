@@ -336,6 +336,22 @@
             <!--Plans and progress-->
             <div>
                 <h3>Plans and progress</h3>
+                <!--Notes for this section-->
+                <div>
+                    <p style="color: #ff6961; font-weight: bold;">Notes:</p>
+                    <p>>>> Timetable colors explanation: </p>
+                    <div>
+                        <table style="width: 700px; margin-left: auto; margin-right: auto;">
+                            <tr>
+                                <th style="width: 30%; background-color: #77dd77;">Done</th>
+                                <th style="width: 30%; background-color: #fdfd96;">In progress</th>
+                                <th style="width: 30%; background-color: #ff6961;">Have not started</th>
+                            </tr>
+                        </table>
+                    </div>
+                    <p>>>> The progress showed in the timetables are updated until 10/01/2023</p>
+                    <p>>>> Phases which status is “Have not started” will not have a timetable until that phase is officially started.</p>
+                </div>
                 <!--Phase 1-->
                 <div>
                     <h4>[Phase 1] Idea and Proposal</h4>
@@ -351,9 +367,9 @@
                     </div>
                     <!--Phase's timetable-->
                     <div>
-                        <table>
+                        <table class="phase-timetable">
                             <!--Headers-->
-                            <tr>
+                            <tr class="phase-headers">
                                 <th style="width: 25%;">Task</th>
                                 <th>Duration</th>
                                 <th style="width: 10%;">Start</th>
@@ -363,7 +379,7 @@
                             </tr>
                             <!--Table content-->
                             <div>
-                                <tr style="background-color: #77DD77;">
+                                <tr class="completed-task">
                                     <td style="font-weight: bold;">
                                         Team gather</td>
                                     <td>14 days</td>
@@ -372,7 +388,7 @@
                                     <td>All</td>
                                     <td></td>
                                 </tr>
-                                <tr style="background-color: #77DD77;">
+                                <tr class="completed-task">
                                     <td style="font-weight: bold;">
                                         Self research and idea brainstorm</td>
                                     <td>4 days</td>
@@ -381,7 +397,7 @@
                                     <td>All</td>
                                     <td></td>
                                 </tr>
-                                <tr style="background-color: #77DD77;">
+                                <tr class="completed-task">
                                     <td style="font-weight: bold;">
                                         Finalize the project’s idea</td>
                                     <td>1 day</td>
@@ -390,7 +406,7 @@
                                     <td>Project leader</td>
                                     <td>Meeting at 1.1.018</td>
                                 </tr>
-                                <tr style="background-color: #77DD77;">
+                                <tr class="completed-task">
                                     <td style="font-weight: bold;">
                                         Proposal structure</td>
                                     <td>2 days</td>
@@ -399,7 +415,7 @@
                                     <td>Project leader</td>
                                     <td>Meeting at 2.4.005</td>
                                 </tr>
-                                <tr style="background-color: #77DD77;">
+                                <tr class="completed-task">
                                     <td style="font-weight: bold;">
                                         Proposal first draft</td>
                                     <td>3 days</td>
@@ -408,7 +424,7 @@
                                     <td>Project leader</td>
                                     <td></td>
                                 </tr>
-                                <tr style="background-color: #77DD77;">
+                                <tr class="completed-task">
                                     <td style="font-weight: bold;">
                                         First draft adjustments</td>
                                     <td>2 days</td>
@@ -417,7 +433,7 @@
                                     <td>Project leader</td>
                                     <td>Meeting at 1.2.026</td>
                                 </tr>
-                                <tr style="background-color: #77DD77;">
+                                <tr class="completed-task">
                                     <td style="font-weight: bold;">
                                         First draft finalize for feedback</td>
                                     <td>2 days</td>
@@ -426,7 +442,7 @@
                                     <td>Project leader</td>
                                     <td>Meeting at 1.1.018</td>
                                 </tr>
-                                <tr style="background-color: #77DD77;">
+                                <tr class="completed-task">
                                     <td style="font-weight: bold;">
                                         Adjustment base on feedback</td>
                                     <td></td>
@@ -435,7 +451,7 @@
                                     <td>Project leader</td>
                                     <td></td>
                                 </tr>
-                                <tr style="background-color: #77DD77;">
+                                <tr class="completed-task">
                                     <td style="font-weight: bold;">
                                         Final adjustment (content and visual) of the proposal</td>
                                     <td>2 days</td>
@@ -465,9 +481,9 @@
                     </div>
                     <!--Phase's timetable-->
                     <div>
-                        <table>
+                        <table class="phase-timetable">
                             <!--Headers-->
-                            <tr>
+                            <tr class="phase-headers">
                                 <th style="width: 25%;">Task</th>
                                 <th>Duration</th>
                                 <th style="width: 10%;">Start</th>
@@ -477,7 +493,7 @@
                             </tr>
                             <!--Table content-->
                             <div>
-                                <tr style="background-color: #77DD77;">
+                                <tr class="completed-task">
                                     <td style="font-weight: bold;">
                                         Getting familiar with GitHub and HTML</td>
                                     <td>14 days</td>
@@ -486,7 +502,7 @@
                                     <td>Technical department</td>
                                     <td></td>
                                 </tr>
-                                <tr style="background-color: #77DD77;">
+                                <tr class="completed-task">
                                     <td style="font-weight: bold;">
                                         Prototype making methods</td>
                                     <td>14 days</td>
@@ -495,7 +511,7 @@
                                     <td>UX UI Designer</td>
                                     <td></td>
                                 </tr>
-                                <tr style="background-color: #77DD77;">
+                                <tr class="completed-task">
                                     <td style="font-weight: bold;">
                                         Medical research about BMI and health</td>
                                     <td>14 days</td>
@@ -504,7 +520,7 @@
                                     <td>Core</td>
                                     <td></td>
                                 </tr>
-                                <tr style="background-color: #77DD77;">
+                                <tr class="completed-task">
                                     <td style="font-weight: bold;">
                                         Market research</td>
                                     <td>14 days</td>
@@ -538,9 +554,9 @@
                     <div>
                         <h5>[3.1] APP DEVELOPMENT</h5>
                         <div>
-                            <table>
+                            <table class="phase-timetable">
                                 <!--Headers-->
-                                <tr>
+                                <tr class="phase-headers">
                                     <th style="width: 25%;">Task</th>
                                     <th>Duration</th>
                                     <th style="width: 10%;">Start</th>
@@ -550,7 +566,7 @@
                                 </tr>
                                 <!--Table content-->
                                 <div>
-                                    <tr style="background-color: #77DD77;">
+                                    <tr class="completed-task">
                                         <td style="font-weight: bold;">
                                             UX brainstorm</td>
                                         <td>5 days</td>
@@ -559,7 +575,7 @@
                                         <td>UX UI Designer</td>
                                         <td></td>
                                     </tr>
-                                    <tr style="background-color: #77DD77;">
+                                    <tr class="completed-task">
                                         <td style="font-weight: bold;">
                                             UI design</td>
                                         <td>14 days</td>
@@ -568,7 +584,7 @@
                                         <td>UX UI Designer</td>
                                         <td></td>
                                     </tr>
-                                    <tr style="background-color: #77DD77;">
+                                    <tr class="completed-task">
                                         <td style="font-weight: bold;">
                                             UX finalize</td>
                                         <td>7 days</td>
@@ -577,7 +593,7 @@
                                         <td>UX UI Designer</td>
                                         <td></td>
                                     </tr>
-                                    <tr style="background-color: #77DD77;">
+                                    <tr class="completed-task">
                                         <td style="font-weight: bold;">
                                             UX testing</td>
                                         <td>7 days</td>
@@ -586,7 +602,7 @@
                                         <td>UX UI Designer</td>
                                         <td></td>
                                     </tr>
-                                    <tr style="background-color: #FDFD96;">
+                                    <tr class="in-progress-task">
                                         <td style="font-weight: bold;">
                                             Prototype using Figma</td>
                                         <td>10 days</td>
@@ -603,9 +619,9 @@
                     <div>
                         <h5>[3.2] PRESENTATION</h5>
                         <div>
-                            <table>
+                            <table class="phase-timetable">
                                 <!--Headers-->
-                                <tr>
+                                <tr class="phase-headers">
                                     <th style="width: 25%;">Task</th>
                                     <th>Duration</th>
                                     <th style="width: 10%;">Start</th>
@@ -615,7 +631,7 @@
                                 </tr>
                                 <!--Table content-->
                                 <div>
-                                    <tr style="background-color: #77DD77;">
+                                    <tr class="completed-task">
                                         <td style="font-weight: bold;">
                                             Presentaion plan</td>
                                         <td>2 days</td>
@@ -624,7 +640,7 @@
                                         <td>Core</td>
                                         <td></td>
                                     </tr>
-                                    <tr style="background-color: #FDFD96;">
+                                    <tr class="in-progress-task">
                                         <td style="font-weight: bold;">
                                             Presentation slides</td>
                                         <td>5 days</td>
@@ -633,7 +649,7 @@
                                         <td>Core</td>
                                         <td></td>
                                     </tr>
-                                    <tr style="background-color: #FDFD96;">
+                                    <tr class="in-progress-task">
                                         <td style="font-weight: bold;">
                                             Presentation script</td>
                                         <td>2 days</td>
@@ -642,7 +658,7 @@
                                         <td>Core</td>
                                         <td></td>
                                     </tr>
-                                    <tr style="background-color: #ff6961;">
+                                    <tr class="havent-started-task">
                                         <td style="font-weight: bold;">
                                             Presentation practice</td>
                                         <td>2 days</td>
@@ -659,9 +675,9 @@
                     <div>
                         <h5>[3.3] REPORT</h5>
                         <div>
-                            <table>
+                            <table class="phase-timetable">
                                 <!--Headers-->
-                                <tr>
+                                <tr class="phase-headers">
                                     <th style="width: 25%;">Task</th>
                                     <th>Duration</th>
                                     <th style="width: 10%;">Start</th>
@@ -669,7 +685,7 @@
                                     <th>In-charge</th>
                                     <th>Note</th>
                                 </tr>
-                                <tr style="background-color: #77DD77;">
+                                <tr class="completed-task">
                                     <td style="font-weight: bold;">
                                         Report outlines and structure</td>
                                     <td>14 days</td>
@@ -678,7 +694,7 @@
                                     <td>Project leader</td>
                                     <td></td>
                                 </tr>
-                                <tr style="background-color: #FDFD96;">
+                                <tr class="in-progress-task">
                                     <td style="font-weight: bold;">
                                         Report content</td>
                                     <td>14 days</td>
@@ -687,7 +703,7 @@
                                     <td>Project leader</td>
                                     <td></td>
                                 </tr>
-                                <tr style="background-color: #FDFD96;">
+                                <tr class="in-progress-task">
                                     <td style="font-weight: bold;">
                                         Report adjustment and finalize</td>
                                     <td>5 days</td>
@@ -696,7 +712,7 @@
                                     <td>Project leader</td>
                                     <td></td>
                                 </tr>
-                                <tr style="background-color: #ff6961;">
+                                <tr class="havent-started-task">
                                     <td style="font-weight: bold;">
                                         Report final version</td>
                                     <td>7 days</td>
