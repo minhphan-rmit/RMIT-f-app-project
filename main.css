@@ -1,8 +1,16 @@
+/*Body style*/
 body {
-    font-family: Verdana;
-    background-color: #ffff;
-    margin-left: 7cm;
-    margin-right: 7cm;
+    font-family: Mulish;
+    background-color: #dfe4de;
+    color: #525e76;
+    line-height: 2;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+h1 {
+    font-family: Mulish;
+    color: #f95151;
 }
 
 table, th, td {
