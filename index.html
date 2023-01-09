@@ -9,105 +9,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>F-APP Project</title>
     <link rel="icon" href="Logo/f-app-logo_with_background.png" type="image/x-icon">
-    <style>
-        /*Body styling*/
-        body {
-            font-family: Poppins;
-            background-color: #ffff;
-            margin-left: 20%;
-            margin-right: 20%;
-        }
-
-        table,
-        th,
-        td {
-            border: 1px solid black;
-            border-collapse: collapse;
-        }
-
-        .phase-headers {
-            background-color: navy;
-            text-align: center;
-            color: white;
-        }
-
-        .phase-cells {
-            height: 50px;
-        }
-
-        th,
-        td {
-            padding: 14px;
-        }
-
-        /*task color classes*/
-        .completed-task {
-            background-color: #77dd77;
-        }
-
-        .in-progress-task {
-            background-color: #fdfd96;
-        }
-
-        .havent-started-task {
-            background-color: #ff6961;
-        }
-
-        .phase-timetable {
-            width: 100%;
-        }
-
-        /*Gradient background for headers*/         
-        .grad-heading {
-            background-image: linear-gradient(to right, #E5EBB2 0%, #C0EA6A  100%);
-            margin-left: 20%;
-            margin-right: 20%;
-            padding: 15px 45px;
-            text-align: center;
-            text-transform: uppercase;
-            transition: 0.5s;
-            background-size: 200% auto;
-            color: #42554F; 
-            font-style: bold;           
-            box-shadow: 0 0 20px #eee;
-            border-radius: 10px;
-            display: block;
-          }
-
-          .grad-heading:hover {
-            background-position: right center;
-            color: #fff;
-            text-decoration: none;
-          }
-          
-          /*Normal text paragraph styling*/
-          .text-paragraph {
-            text-align: justify;
-            line-height: 2;
-          }
-
-          /*Personal text paragraph styling*/
-          .self-text {
-            text-align: justify;
-            font-style: italic;
-            line-height: 2;
-          }
-
-          /*Profile picture styling*/
-          div.profile-pic {
-            float: left;
-            width: 30%;
-            margin-right: 5%;
-            background-color: white;
-            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-            margin-bottom: 25px;
-          }
-
-          div.information {
-            text-align: center;
-            padding: 10px 20px;
-          }
-    </style>
+    <link rel="stylesheet" href="main.css">
 </head>
 
 <body>
@@ -118,26 +20,29 @@
             <img src="RMIT_University_Logo.png" alt="RMIT University Logo" style="height: 48px; width: auto;">
         </div>
     </section>
-    <br>
+
     <!--Team profile-->
     <section class="team-profile">
         <!--Project name description-->
-        <section class="project-name">
+        <div class="project-name">
             <h1 class="grad-heading">Our project name</h1>
             <p class="text-paragraph">
-                F-APP is short for Fitness App. We came up with this name randomly in a past meeting, and it meets our criteria: as few syllables as possible and easy to remember. However, we plan to have an alternative name for the project product that is more meaningful and memorable.
+                F-APP is short for Fitness App. We came up with this name randomly in a past meeting, and it meets our
+                criteria: as few syllables as possible and easy to remember. However, we plan to have an alternative
+                name for the project product that is more meaningful and memorable.
             </p>
-        </section>
-        
+        </div>
+
         <!--Development team personal information-->
-        <section class="team-information">
+        <div class="team-information">
             <h1 class="grad-heading">Team profile</h1>
             <!--Project leader information-->
             <div>
                 <h3>Project leader</h3>
                 <div id="profile-picture">
                     <div class="profile-pic">
-                        <img src="profile_pic/profile_pictures_square/Minh.png" alt="Project leader profile picutre" style="width:100%;">
+                        <img src="profile_pic/profile_pictures_square/Minh.png" alt="Project leader profile picutre"
+                            style="width:100%;">
                         <div class="information">
                             <p>Phan Nhat Minh</p>
                             <p>s3978598@rmit.edu.vn</p>
@@ -147,9 +52,27 @@
                 </div>
                 <div id="self-intro-and-career-plan">
                     <p class="self-text">
-                        “I am Minh Phan. I am 100% Saigonese because I was born in Ho Chi Minh City and have lived here for 18 years. I have been interested in IT since I was three years old. I tried to get into the IT specialized high school class but failed the test. From that moment, my IT passion went down. However, when I was thinking about my university major, IT just popped up again, which is why I am studying IT at RMIT. I am logical and practical (my personality type is INTP), and I also like math. That is why I think IT is suitable for me. Besides the enjoyment of working with computers, I do enjoy how IT is helping to develop our life. For example, smart homes are an application of IT technologies, making our lives easier. Personally, there are two reasons why I am interested in this topic/project. First, I want to experience working on a team project that follows professional criteria. Second, the idea quite suits my needs. I am trying to balance studying and being healthy simultaneously, so I need the project’s outcome. I am a practical and logical person. That is why I am planning to study two minors: Data Analytics and Cloud Technology. After graduation, I will apply for two positions based on my minors: Cloud Engineer and Data Analyst. These entry-level jobs will give me opportunities to work for big companies so that I can gain experience in a professional setting. After that, I have two plans for myself. If I get promoted and get a better position or job, I will stick to that job and develop myself further. Otherwise, I want to start my own business after taking an MBA."
+                        “I have been interested in IT since I was three years old. I tried to get into the
+                        IT specialized high school class but failed the test. From that moment, my IT passion went down.
+                        However, when I was thinking about my university major, IT just popped up again, which is why I
+                        am studying IT at RMIT. I am logical and practical (my personality type is INTP), and I also
+                        like math. That is why I think IT is suitable for me. Besides the enjoyment of working with
+                        computers, I do enjoy how IT is helping to develop our life. For example, smart homes are an
+                        application of IT technologies, making our lives easier. Personally, there are two reasons why I
+                        am interested in this topic/project. First, I want to experience working on a team project that
+                        follows professional criteria. Second, the idea quite suits my needs. I am trying to balance
+                        studying and being healthy simultaneously, so I need the project’s outcome.
                     </p>
-                </div>   
+                    <p class="self-text">
+                        I am a practical and logical person. That is why I am planning to study two minors: Data
+                        Analytics and Cloud Technology. After graduation, I will apply for two positions based on my
+                        minors: Cloud Engineer and Data Analyst. These entry-level jobs will give me opportunities to
+                        work for big companies so that I can gain experience in a professional setting. After that, I
+                        have two plans for myself. If I get promoted and get a better position or job, I will stick to
+                        that job and develop myself further. Otherwise, I want to start my own business after taking an
+                        MBA."
+                    </p>
+                </div>
             </div>
 
             <!--Technical leader information-->
@@ -157,7 +80,8 @@
                 <h3>Technical leader</h3>
                 <div id="profile-picture">
                     <div class="profile-pic">
-                        <img src="profile_pic/profile_pictures_square/Jimin.png" alt="Technical leader profile picutre" style="width:100%;">
+                        <img src="profile_pic/profile_pictures_square/Jimin.png" alt="Technical leader profile picutre"
+                            style="width:100%;">
                         <div class="information">
                             <p>Jimin Cho</p>
                             <p>s3940575@rmit.edu.vn</p>
@@ -167,7 +91,33 @@
                 </div>
                 <div id="self-intro-and-career-plan">
                     <p class="self-text">
-                        “I have much interest in data analysis and big data in IT, and I chose this as my minor. I have learned Python, C, and R programming and have coding and computing thinking advantages. I have experienced losing 20 kg through dieting, and I am still on a diet as my minor. I have learned Python, C, and R programming and have coding and computing thinking advantages. I have experienced losing 20 kg through dieting, and I am still on a diet. I do running and weight training every day as a hobby, and I am glad that this hobby fits well with the direction of our project. I set three main goals for this project. Firstly, I want to use my strengths and experiences to create an HTML website. Secondly, I look forward to creating a high-accuracy F-APP website by synthesizing and analyzing fitness data from various users, other calculation sites, and papers. Lastly, I hope that the development process and results of F-APP will positively affect my diet. I have always wanted to run a company that makes electronic devices. I have long been interested in high-tech electronic devices such as computers, smartphones, and VR. In particular, I liked to compare their strengths and weaknesses and analyze which are more competitive and why some products are famous and less popular. These hobbies and interests naturally led me to be interested in big data and data analytics, which mine and analyze valuable data among numerous user data. Before running a company, it was essential to understand the process and strategy of Big Tech companies planning, producing, and selling their products. RMIT University provides internships for many global companies, so I chose the data analysis minor at RMIT University's IT department. I have to study for an internship at RMIT University and have experience in the IT field, then go back to Korea and join the army. I will apply for a software developer position to continue my IT experience while in the military. This experience is expected to help me make contact with the rapidly changing IT sector without wasting time in the military. After discharge from the military, I aim to start my own business after gaining more practical experience in IT companies."
+                        “I have much interest in data analysis and big data in IT, and I chose this as my minor. I have
+                        learned Python, C, and R programming and have coding and computing thinking advantages. I have
+                        experienced losing 20 kg through dieting, and I am still on a diet as my minor. I have learned
+                        Python, C, and R programming and have coding and computing thinking advantages. I have
+                        experienced losing 20 kg through dieting, and I am still on a diet. I do running and weight
+                        training every day as a hobby, and I am glad that this hobby fits well with the direction of our
+                        project. I set three main goals for this project. Firstly, I want to use my strengths and
+                        experiences to create an HTML website. Secondly, I look forward to creating a high-accuracy
+                        F-APP website by synthesizing and analyzing fitness data from various users, other calculation
+                        sites, and papers. Lastly, I hope that the development process and results of F-APP will
+                        positively affect my diet.
+                    </p>
+                    <p class="self-text">
+                        I have always wanted to run a company that makes electronic devices. I have long been interested
+                        in high-tech electronic devices such as computers, smartphones, and VR. In particular, I liked
+                        to compare their strengths and weaknesses and analyze which are more competitive and why some
+                        products are famous and less popular. These hobbies and interests naturally led me to be
+                        interested in big data and data analytics, which mine and analyze valuable data among numerous
+                        user data. Before running a company, it was essential to understand the process and strategy of
+                        Big Tech companies planning, producing, and selling their products. RMIT University provides
+                        internships for many global companies, so I chose the data analysis minor at RMIT University's
+                        IT department. I have to study for an internship at RMIT University and have experience in the
+                        IT field, then go back to Korea and join the army. I will apply for a software developer
+                        position to continue my IT experience while in the military. This experience is expected to help
+                        me make contact with the rapidly changing IT sector without wasting time in the military. After
+                        discharge from the military, I aim to start my own business after gaining more practical
+                        experience in IT companies."
                     </p>
                 </div>
             </div>
@@ -177,7 +127,8 @@
                 <h3>Business leader</h3>
                 <div id="profile-picture">
                     <div class="profile-pic">
-                        <img src="profile_pic/profile_pictures_square/Kim.jpg" alt="Business leader profile picutre" style="width:100%;">
+                        <img src="profile_pic/profile_pictures_square/Kim.jpg" alt="Business leader profile picutre"
+                            style="width:100%;">
                         <div class="information">
                             <p>Nguyen Ngoc Kim</p>
                             <p>s3970589@rmit.edu.vn</p>
@@ -187,17 +138,36 @@
                 </div>
                 <div id="self-intro-and-career-plan">
                     <p class="self-text">
-                        “My name is Nguyen Ngoc Kim. I was born in Thai Nguyen Province, and my family has six people, including my grandparents, my parents, my younger brother, and me. My parents and I decided to study at RMIT University because we believed I could have a better academic background after graduating and more opportunities to participate in good companies. Since I was a child, I have fallen in love with music, and my dream is to become a music composer and singer. However, when I grew up, I realized that I could not make money with my talent; as a result, I decided to learn as a student in the Bachelor of Information Technology course at RMIT. Although I do not have any experience in IT, I believe that RMIT could train me and make me a better version. As a student of the Bachelor of Information Technology, I will have a good background as well as a better start than others when I have a job in the future. The RMIT education and my passion for IT might help me have many opportunities in the future, including taking part in a technology multinational company or being a leader of a big project for my host company. When working in a large group, I want to contribute all my skills and knowledge and learn new things and experiences from others, especially people from other parts of the world. After working for a long time and getting enough experience, I might run my own business and try my best to reach my dream. If I succeed, I can do another job, such as becoming a singer, to make a variety of income for my life."
+                        “My name is Nguyen Ngoc Kim. I was born in Thai Nguyen Province, and my family has six people,
+                        including my grandparents, my parents, my younger brother, and me. My parents and I decided to
+                        study at RMIT University because we believed I could have a better academic background after
+                        graduating and more opportunities to participate in good companies. Since I was a child, I have
+                        fallen in love with music, and my dream is to become a music composer and singer. However, when
+                        I grew up, I realized that I could not make money with my talent; as a result, I decided to
+                        learn as a student in the Bachelor of Information Technology course at RMIT. Although I do not
+                        have any experience in IT, I believe that RMIT could train me and make me a better version.
+                    </p>
+                    <p class="self-text">
+                        As a student of the Bachelor of Information Technology, I will have a good background as well as
+                        a better start than others when I have a job in the future. The RMIT education and my passion
+                        for IT might help me have many opportunities in the future, including taking part in a
+                        technology multinational company or being a leader of a big project for my host company. When
+                        working in a large group, I want to contribute all my skills and knowledge and learn new things
+                        and experiences from others, especially people from other parts of the world. After working for
+                        a long time and getting enough experience, I might run my own business and try my best to reach
+                        my dream. If I succeed, I can do another job, such as becoming a singer, to make a variety of
+                        income for my life."
                     </p>
                 </div>
             </div>
-            
+
             <!--Assistant information-->
             <div>
                 <h3>Assistant</h3>
                 <div id="profile-picture">
                     <div class="profile-pic">
-                        <img src="profile_pic/profile_pictures_square/Huy.png" alt="Assistant profile picutre" style="width:100%;">
+                        <img src="profile_pic/profile_pictures_square/Huy.png" alt="Assistant profile picutre"
+                            style="width:100%;">
                         <div class="information">
                             <p>Luong Anh Huy</p>
                             <p>s3979199@rmit.edu.vn</p>
@@ -207,66 +177,118 @@
                 </div>
                 <div id="self-intro-and-career-plan">
                     <p class="self-text">
-                        “I am fascinated by the performance of the already available AI on the market, like Siri or Google Assistant, when it comes to human interaction. Their possible room for improvement has led me to major in IT and choose AI as my minor. However, with little prior insight into the field, I still have much to learn, and I am eager to do so. One of my advantages is that I am open to new experiences, knowledge and opinion. However, sometimes I tend to over-complicate things, which has led to multiple difficulties during my time in school, and it is something I am working on to improve myself. Technology, in general, has been one of my top interests since I was a child. Furthermore, information technology has recently proven itself to be the "next big thing," the core foundation of the fourth industrial revolution. This has struck me as an unmissable chance to pursue something I enjoy while making a living. With that in mind, in high school, I put effort into laying the bedrock for it by familiarizing myself with primary coding language and critical thinking. On that groundwork, I intend to further improve my skill and knowledge of the field during my time at RMIT university while actively seeking hand-ons experience in the form of internship via the school broad connection as well as building beneficial relationships with my peers, developing professional practices required for my future career as an IT officer, etc. I believe it is every IT student's dream to work for one of the "Four Horsemen" of tech after their graduation, myself included, and be a part of the force that drives the world forward or just make a fortune out of it. Alternatively, even better, join them as the "Fifth" one."
+                        “I am fascinated by the performance of the already available AI on the market, like Siri or
+                        Google Assistant, when it comes to human interaction. Their possible room for improvement has
+                        led me to major in IT and choose AI as my minor. However, with little prior insight into the
+                        field, I still have much to learn, and I am eager to do so. One of my advantages is that I am
+                        open to new experiences, knowledge and opinion. However, sometimes I tend to over-complicate
+                        things, which has led to multiple difficulties during my time in school, and it is something I
+                        am working on to improve myself.
+                    </p>
+                    <p class="self-text">
+                        Technology, in general, has been one of my top interests since I was a child. Furthermore,
+                        information technology has recently proven itself to be the "next big thing," the core
+                        foundation of the fourth industrial revolution. This has struck me as an unmissable chance to
+                        pursue something I enjoy while making a living. With that in mind, in high school, I put effort
+                        into laying the bedrock for it by familiarizing myself with primary coding language and critical
+                        thinking. On that groundwork, I intend to further improve my skill and knowledge of the field
+                        during my time at RMIT university while actively seeking hand-ons experience in the form of
+                        internship via the school broad connection as well as building beneficial relationships with my
+                        peers, developing professional practices required for my future career as an IT officer, etc. I
+                        believe it is every IT student's dream to work for one of the "Four Horsemen" of tech after
+                        their graduation, myself included, and be a part of the force that drives the world forward or
+                        just make a fortune out of it. Alternatively, even better, join them as the "Fifth" one."
                     </p>
                 </div>
             </div>
-        </section>
+        </div>
 
         <!--Group processes-->
-        <div>
+        <div class="project-processes">
             <h2>Our processes</h2>
             <div class="text-paragraph">
                 <p>
-                    The project has been running for two months. The overall progress is slower than expected because of miscommunication and irresponsibility of some team members. Nevertheless, everything is still in control. Our solution is to reduce the unnecessary time for less important tasks and use that time on more critical tasks.
+                    The project has been running for two months. The overall progress is slower than expected because of
+                    miscommunication and irresponsibility of some team members. Nevertheless, everything is still in
+                    control. Our solution is to reduce the unnecessary time for less important tasks and use that time
+                    on more critical tasks.
                 </p>
                 <p>
-                    Communication between team members is not good. We are not usually at school, so face-to-face communication is limited. Our communication often occurs online, and this could be more efficient.
+                    Communication between team members is not good. We are not usually at school, so face-to-face
+                    communication is limited. Our communication often occurs online, and this could be more efficient.
                 </p>
-                
+
                 <p>
                     However, the project is still running smoothly, thanks to the hard work of other members.
-                </p> 
-            </p>
+                </p>
+            </div>
         </div>
     </section>
 
     <!--Tools-->
-    <div>
+    <section class="tools">
         <h1 class="grad-heading">Tools</h1>
         <a href="https://github.com/minhphan-rmit/RMIT-f-app-website.git">Our GitHub repository</a>
         <div class="text-paragraph">
             <p>
-                After using GitHub for a while, we all realized the benefits and advantages of GitHub and understood why most IT professionals and systems use GitHub to organize their projects.
+                After using GitHub for a while, we all realized the benefits and advantages of GitHub and understood why
+                most IT professionals and systems use GitHub to organize their projects.
             </p>
             <p>
-                First, GitHub helps us store our source code and files like cloud storage like Google Drive or OneDrive. This feature is convenient because, as a team project, we all work on the same file and use the same documents, so storing it in the same directory makes it easier for all of us to find and use any files of the project.
+                First, GitHub helps us store our source code and files like cloud storage like Google Drive or OneDrive.
+                This feature is convenient because, as a team project, we all work on the same file and use the same
+                documents, so storing it in the same directory makes it easier for all of us to find and use any files
+                of the project.
             </p>
             <p>
-                Secondly, besides the storing function, the audit trail helps us keep track of what is happening. We can quickly know who edited this file and who created another file. Furthermore, most importantly, all the previous versions of a file will be saved so that if we make any mistakes, we can turn back to the old version of that file. The audit trail is essential in IT in general because in a large project, for example, a mobile app project, we have many functions, and we can not finish it in 1 day, and we have to work for days, months or even years. In that long period, mistakes will be made, and sometimes, we have to turn back where we started. That is why GitHub is so helpful.
+                Secondly, besides the storing function, the audit trail helps us keep track of what is happening. We can
+                quickly know who edited this file and who created another file. Furthermore, most importantly, all the
+                previous versions of a file will be saved so that if we make any mistakes, we can turn back to the old
+                version of that file. The audit trail is essential in IT in general because in a large project, for
+                example, a mobile app project, we have many functions, and we can not finish it in 1 day, and we have to
+                work for days, months or even years. In that long period, mistakes will be made, and sometimes, we have
+                to turn back where we started. That is why GitHub is so helpful.
             </p>
             <p>
-                Those benefits affect our productivity. We can track others' progress using GitHub. We saved time by turning back to the working version and not affecting the whole project by mistake.
+                Those benefits affect our productivity. We can track others' progress using GitHub. We saved time by
+                turning back to the working version and not affecting the whole project by mistake.
             </p>
         </div>
-    </div>
+    </section>
 
     <!--Project description-->
     <div>
         <h1 class="grad-heading">Project description</h1>
         <!--Overview-->
-        <section class="overview">
+        <div class="overview">
             <h2>Overview</h2>
             <!--Topic-->
             <div>
                 <h3>Topic</h3>
                 <div class="text-paragraph">
                     <p>
-                        Numerous people are concerned about nutritional imbalance and the rise in obesity rates. According to Shattuck (2017), obesity rates did not exceed 15% in any U.S. state in 1985; by 2016, no state had a rate under 20%. Currently, the average obesity rate is over 33%. Correcting dietary imbalances will benefit society. As rates of physical activity have decreased, there is an increasing epidemic of obesity (Skinner et al., 2018, cited in Armstrong, 2019). IT professionals are not exempt from this rule. In particular, persons who spend several hours sitting in chairs and avoid outdoor activities are more likely to be exposed to obesity or underweight risks.
+                        Numerous people are concerned about nutritional imbalance and the rise in obesity rates.
+                        According to Shattuck (2017), obesity rates did not exceed 15% in any U.S. state in 1985; by
+                        2016, no state had a rate under 20%. Currently, the average obesity rate is over 33%. Correcting
+                        dietary imbalances will benefit society. As rates of physical activity have decreased, there is
+                        an increasing epidemic of obesity (Skinner et al., 2018, cited in Armstrong, 2019). IT
+                        professionals are not exempt from this rule. In particular, persons who spend several hours
+                        sitting in chairs and avoid outdoor activities are more likely to be exposed to obesity or
+                        underweight risks.
 
                     </p>
                     <p>
-                        As a result, our group developed an interest in the topic of nutritional imbalance. BMI is one of the well-known and practical measurements of obesity. Individuals can quickly determine their present physical state by dividing one's weight by the square of height. Our group identified areas for improvement in other BMI calculators. This was the issue with only giving out the necessities of data, such as the present situation and statistics. Our group believed it would be more practical if it offered suggestions as to what types of management are required beyond just calculating BMI. Therefore, we decided to develop a calculator that does not require users to check their BMI, search for exercises online, or find another calculator to see how many calories they consumed today. Using our project, users can calculate their daily caloric intake and receive suggestions depending on their BMI. This lets users know whether they should reduce their diet, exercise, or increase their diet.
+                        As a result, our group developed an interest in the topic of nutritional imbalance. BMI is one
+                        of the well-known and practical measurements of obesity. Individuals can quickly determine their
+                        present physical state by dividing one's weight by the square of height. Our group identified
+                        areas for improvement in other BMI calculators. This was the issue with only giving out the
+                        necessities of data, such as the present situation and statistics. Our group believed it would
+                        be more practical if it offered suggestions as to what types of management are required beyond
+                        just calculating BMI. Therefore, we decided to develop a calculator that does not require users
+                        to check their BMI, search for exercises online, or find another calculator to see how many
+                        calories they consumed today. Using our project, users can calculate their daily caloric intake
+                        and receive suggestions depending on their BMI. This lets users know whether they should reduce
+                        their diet, exercise, or increase their diet.
                     </p>
                 </div>
             </div>
@@ -276,43 +298,69 @@
                 <h3>Motivation</h3>
                 <div class="text-paragraph">
                     <p>
-                        After the COVID-19 pandemic and a long period of working from home, people started realizing how important it is to be physically and mentally healthy. Based on that realization, we developed a virtual assistant for health care. This project can change the habits of the majority of people about their awareness of their health and help people have a better and healthier life.
+                        After the COVID-19 pandemic and a long period of working from home, people started realizing how
+                        important it is to be physically and mentally healthy. Based on that realization, we developed a
+                        virtual assistant for health care. This project can change the habits of the majority of people
+                        about their awareness of their health and help people have a better and healthier life.
                     </p>
                     <p>
-                        Smartphones have become an indispensable part of our lives in the past 20 years; we can easily access services using smartphones, from payment, transportation and socialization. That is why we developed a cross-platform virtual assistant available on mobile devices such as smartphones, laptops, and tablets. The trend of mobile applications will last for many years. Even when augmented reality and virtual reality become popular soon, it will be an opportunity for us to make our product more "realistic."
+                        Smartphones have become an indispensable part of our lives in the past 20 years; we can easily
+                        access services using smartphones, from payment, transportation and socialization. That is why
+                        we developed a cross-platform virtual assistant available on mobile devices such as smartphones,
+                        laptops, and tablets. The trend of mobile applications will last for many years. Even when
+                        augmented reality and virtual reality become popular soon, it will be an opportunity for us to
+                        make our product more "realistic."
                     </p>
                     <p>
-                        This project is not just a "school project" or an average group project. This project is a replication of real-life IT-related projects. As a result, working on this project brings us many benefits. Firstly, we have a chance to work in a professional environment. We do documents like proposals, reports, meeting minutes, and papers. We do academic research for our project idea; we have to obey different work ethics from the typical projects. Secondly, we learn how to work effectively in a group, a department, or similar. We learn how to stay in touch with people, teammates, and other departments; we learn how to communicate professionally. In conclusion, we can gain many invisible benefits from working on a project, like technical skills and knowledge aside from professional workflow. This is an excellent opportunity to prove to employers that we can fit into their business.
+                        This project is not just a "school project" or an average group project. This project is a
+                        replication of real-life IT-related projects. As a result, working on this project brings us
+                        many benefits. Firstly, we have a chance to work in a professional environment. We do documents
+                        like proposals, reports, meeting minutes, and papers. We do academic research for our project
+                        idea; we have to obey different work ethics from the typical projects. Secondly, we learn how to
+                        work effectively in a group, a department, or similar. We learn how to stay in touch with
+                        people, teammates, and other departments; we learn how to communicate professionally. In
+                        conclusion, we can gain many invisible benefits from working on a project, like technical skills
+                        and knowledge aside from professional workflow. This is an excellent opportunity to prove to
+                        employers that we can fit into their business.
                     </p>
                 </div>
             </div>
 
             <!--Landscape-->
-            <section class="overview-landscape">
+            <div>
                 <h3>Landscape</h3>
                 <div class="text-paragraph">
                     <p>
-                        Our project idea is not highly distinguishable from those on the market. There are many similar products with similar functions to ours. We chose two products that already exist to give an overview of similar products:
+                        Our project idea is not highly distinguishable from those on the market. There are many similar
+                        products with similar functions to ours. We chose two products that already exist to give an
+                        overview of similar products:
                     </p>
                     <ul>
                         <li>Nike Training Club is a fitness app from Nike, Inc.</li>
                         <li>We Do Pulse is a personal health assistant made by PULSE ECOSYSTEM PTE. LTD.</li>
                     </ul>
                     <p>
-                        Both products mentioned above have almost the same features as our apps. However, these products consistently receive bad reviews because of a bad user experience. The common problems of the competitors are:
+                        Both products mentioned above have almost the same features as our apps. However, these products
+                        consistently receive bad reviews because of a bad user experience. The common problems of the
+                        competitors are:
                     </p>
                     <ul>
                         <li>The free plans and programs could be more helpful.</li>
                         <li>The programs provided need to be more general and personalized for every user.</li>
                         <li>The app's user interface could be more attractive and easy to use.</li>
-                        <li>Most of the time, the users will feel "lonely" because their assistant is not really an assistant.</li>
+                        <li>Most of the time, the users will feel "lonely" because their assistant is not really an
+                            assistant.</li>
                     </ul>
                     <p>
-                        Based on users' needs, we aim to solve all the abovementioned problems. Besides providing programs through computer calculation and AI in the future, we plan to provide a platform to connect trainers and users. This feature will make our product more user-friendly and customizable. Furthermore, we are focusing on developing UX and UI together to make the app more easy-to-use and attractive.
+                        Based on users' needs, we aim to solve all the abovementioned problems. Besides providing
+                        programs through computer calculation and AI in the future, we plan to provide a platform to
+                        connect trainers and users. This feature will make our product more user-friendly and
+                        customizable. Furthermore, we are focusing on developing UX and UI together to make the app more
+                        easy-to-use and attractive.
                     </p>
                 </div>
-            </section>
-        </section>
+            </div>
+        </div>
 
         <!--Detailed description-->
         <div>
@@ -322,14 +370,20 @@
                 <h3>Aims</h3>
                 <div class="text-paragraph">
                     <p>
-                        Based on the disadvantages of other similar products that we mentioned above, we can easily define our most important aim for this project:
+                        Based on the disadvantages of other similar products that we mentioned above, we can easily
+                        define our most important aim for this project:
                     </p>
                     <h4 style="text-align: center;">A “real” virtual trainer</h4>
                     <p>
-                        Being fit and healthy does not mean that you have to work hard like a natural bodybuilder. They are usually simple exercises at home, such as a morning trek in a nearby park, but you may occasionally lose your track; you may need help knowing where to begin or continue your track. This is when a virtual trainer comes in handy. A virtual trainer provides a training program and tracks your progress, giving personalized advice based on your status.
+                        Being fit and healthy does not mean that you have to work hard like a natural bodybuilder. They
+                        are usually simple exercises at home, such as a morning trek in a nearby park, but you may
+                        occasionally lose your track; you may need help knowing where to begin or continue your track.
+                        This is when a virtual trainer comes in handy. A virtual trainer provides a training program and
+                        tracks your progress, giving personalized advice based on your status.
                     </p>
                     <p>
-                        In order to be a "real" virtual trainer, we have defined some goals for our process of development:
+                        In order to be a "real" virtual trainer, we have defined some goals for our process of
+                        development:
                     </p>
                     <!--Goals-->
                     <div>
@@ -337,30 +391,42 @@
                         <div>
                             <h4>The most attractive UI</h4>
                             <p>
-                                For us, UI is one of the essential parts of a mobile app's success. An attractive and energetic UI is a big motivation for our users. Looking at and using a colorful and motivating app encourages our users to work out and stay healthy.
+                                For us, UI is one of the essential parts of a mobile app's success. An attractive and
+                                energetic UI is a big motivation for our users. Looking at and using a colorful and
+                                motivating app encourages our users to work out and stay healthy.
                             </p>
                         </div>
                         <!--Goal 2-->
                         <div>
                             <h4>The best UX</h4>
                             <p>
-                                Building a system that has a good user experience is a big challenge for every project. There are two main points on which we will focus on the UX of our product: simplify the way of using the app by easing the connection between users and trainers, and personalize the app as much as possible for every user so that they will feel cared for and motivated.
+                                Building a system that has a good user experience is a big challenge for every project.
+                                There are two main points on which we will focus on the UX of our product: simplify the
+                                way of using the app by easing the connection between users and trainers, and
+                                personalize the app as much as possible for every user so that they will feel cared for
+                                and motivated.
                             </p>
                         </div>
                         <!--Goal 3-->
                         <div>
                             <h4>Verified trainers</h4>
                             <p>
-                                Our product is not only for users who want to stay healthy but also for trainers who are passionate about bodybuilding and willing to share their knowledge to help others stay healthy. This will help them develop their passion and provide a source of income.
+                                Our product is not only for users who want to stay healthy but also for trainers who are
+                                passionate about bodybuilding and willing to share their knowledge to help others stay
+                                healthy. This will help them develop their passion and provide a source of income.
                             </p>
                         </div>
                     </div>
                     <p>
-                        Besides the aim of the product, that aim sounds a bit "technical," we have another aim that is more "social," and this is as important as the aim mentioned above:
+                        Besides the aim of the product, that aim sounds a bit "technical," we have another aim that is
+                        more "social," and this is as important as the aim mentioned above:
                     </p>
                     <h4 style="text-align: center;">A healthy community (F-APP community)</h4>
                     <p>
-                        When the app gets released to the market, it will not only help every user individually, but it will be a platform that connects people, helps people make friends, share their progress, and helps others reach their goals. This will affect society's awareness about their health, creating a healthier, more connected society.
+                        When the app gets released to the market, it will not only help every user individually, but it
+                        will be a platform that connects people, helps people make friends, share their progress, and
+                        helps others reach their goals. This will affect society's awareness about their health,
+                        creating a healthier, more connected society.
                     </p>
                 </div>
             </div>
@@ -376,12 +442,9 @@
                         <table style="width: 700px; margin-left: auto;
                                 margin-right: auto;">
                             <tr>
-                                <th style="width: 30%; background-color:
-                                        #77dd77;">Done</th>
-                                <th style="width: 30%; background-color:
-                                        #fdfd96;">In progress</th>
-                                <th style="width: 30%; background-color:
-                                        #ff6961;">Have not started</th>
+                                <th style="width: 30%; background-color: #ecffdc;">Done</th>
+                                <th style="width: 30%; background-color: #ffe5d4;">In progress</th>
+                                <th style="width: 30%; background-color: #fa8072;">Have not started</th>
                             </tr>
                         </table>
                     </div>
@@ -985,33 +1048,396 @@
                     </ul>
                 </div>
             </div>
-        </div>
 
-        <!--Testing-->
-        <div>
-            <h3>Testing</h3>
-            <p>
-                Our group tried avoiding a giant bug or problem after the release. We expected that finding and
-                resolving bugs in the development process would increase development and operational efficiency rather
-                than creating bugs after our project releases. We referred to "AGILE DEVELOPMENT CYCLE" to make specific
-                software.
-            </p>
-            <p>
-                The reason why our group decided to use the "AGILE DEVELOPMENT CYCLE" is that it requires continuous and
-                continuous interaction and debugging. In addition, these short-period interactions will allow all our
-                team members to participate continuously in the debugging process, enhancing their understanding of the
-                project and ensuring that they remember the project's progress. This cycle should be implemented
-                whenever there are new changes or functionality additions to our website.
-            </p>
-            <p>
-                We made a requirement to distinguish whether our test was successful or unsuccessful. We provide an
-                example of the website's requirements (expected results) by referring to the Behavior-driven development
-                (BDD) model. The defined conditions of these dictionaries aim to be as clear and objective as possible
-                to reduce confusion. As a result, these conditions (expected results) aim to help provide the tester
-                with clear acceptance criteria.
-            </p>
+            <!--Scope and limits-->
+            <div>
+                <h3>Scope and limits</h3>
+                <table>
+                    <tr>
+                        <!--First row-->
+                        <td style="background-color: #42554F; color: #ffff; text-align: center; font-weight: bold;">
+                        </td>
+                        <td style="background-color: #42554F; color: #ffff; text-align: center; font-weight: bold;">
+                            Priority
+                        </td>
+                        <td style="background-color: #42554F; color: #ffff; text-align: center; font-weight: bold;">
+                            Feature
+                        </td>
+                        <td style="background-color: #42554F; color: #ffff; text-align: center; font-weight: bold;">
+                            Description
+                        </td>
+                    </tr>
+                    <tr>
+                        <td rowspan="19" style="font-weight: bold; background-color: lightgreen; text-align: center;">In
+                            scope
+                        </td>
+                        <td colspan="3" style="text-align: center; background-color: paleturquoise; font-weight: bold;">
+                            For trainee
+                        </td>
+                    </tr>
+                    <tr>
+                        <td rowspan="4" style="font-weight: bold; background-color: #ecffdc; text-align: center;">High
+                        </td>
+                        <td><strong>Diagnose body status</strong>
+                        </td>
+                        <td>Calculate base on data input:
+                            <ul>
+                                <li>Height</li>
+                                <li>weight</li>
+                                <li>Age</li>
+                                <li>Gender</li>
+                                <li>Other sickenss</li>
+                                <li>...</li>
+                            </ul>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><strong>Give conclusion about body status</strong>
+                        </td>
+                        <td>Get input from user about their exercises, meals,... in order to give more accurate
+                            suggestion
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><strong>Daily data input</strong>
+                        </td>
+                        <td>Get input from user about their exercises, meals,... in order to give more accurate
+                            suggestion
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><strong>Recommendations</strong>
+                            <p>
+                                <strong>/Advices/Solutions for your status</strong>
+                        </td>
+                        <td>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td rowspan="6" style="font-weight: bold; background-color: #ffe5d4; text-align: center;">Medium
+                        </td>
+                        <td><strong>Home page</strong>
+                        </td>
+                        <td>"Log in options:
+                            <p>
+                                Create an account or sign up with Google/Facebook/...
+                                <p>
+                                    Forget password
+                                    <p>
+                                        Sign up a F-APP account"
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><strong>Meals, food, exercises library and how to make/do it at home</strong>
+                        </td>
+                        <td>Provide a wide selection of meals and exercises beside the one that is already provided in
+                            the advice.
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><strong>Feedback</strong>
+                        </td>
+                        <td>User can give feedback on our free program and user experience in general
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><strong>Search engine</strong>
+                        </td>
+                        <td>Searching for specific exercise, meals or trainer
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><strong>PT filter (location)</strong>
+                        </td>
+                        <td>If trainee would like to meet the trainer face-to-face, this will help
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><strong>Progress summary</strong>
+                        </td>
+                        <td>Give weekly progress summary for users (maybe create a level, challenge or something like
+                            that) to encourage
+                            user keep trying to be fit
+                        </td>
+                    </tr>
+                    <tr>
+                        <td rowspan="4" style="font-weight: bold; background-color: #fa8072; text-align: center;">Low
+                        </td>
+                        <td><strong>Identity verification</strong>
+                        </td>
+                        <td>Both trainees and trainers are required to verify the identity (only for paid plans)
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><strong>Advertisement</strong>
+                        </td>
+                        <td>Resource for developing
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><strong>Payment</strong>
+                        </td>
+                        <td>Payment options for premium version and donation
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><strong>Exercise correctness checker</strong>
+                        </td>
+                        <td>Check the correctness of the way user do exercise using image analysis to avoid injuries and
+                            help the user
+                            workout more effective
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="3" style="text-align: center; background-color: paleturquoise; font-weight: bold;">
+                            For trainers
+                        </td>
+                    </tr>
+                    <tr>
+                        <td rowspan="3" style="font-weight: bold; background-color: #ffe5d4; text-align: center;">Medium
+                        </td>
+                        <td><strong>Profile tools</strong>
+                        </td>
+                        <td>Give trainers chance to introduce themselves on our app
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><strong>Trainees management</strong>
+                        </td>
+                        <td>
+                            - Track trainee progress
+                            <p>
+
+                                - Communicate with trainees
+                                <p>
+
+                                    - Plan meals and exercises for trainees
+                                    <p>
+
+                                        - Trainees feedback
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><strong>Income</strong>
+                        </td>
+                        <td>Trainers will receive a portion (20% - 40%) of trainee’s subscription
+                        </td>
+                    </tr>
+                    <tr>
+                        <td rowspan="5" colspan="2"
+                            style="font-weight: bold; background-color: gainsboro; text-align: center;">Out of scope
+                        </td>
+                        <td><strong>Data input from smartwatches and fitness devices</strong>
+                        </td>
+                        <td>Automatically input exercises data from smart watches
+                            <p>
+                                Ex: Apple watch can show the burned calories after doing exercises, we can get input
+                                from this so that the
+                                user do not have to manually input to the app
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><strong>Premium version (Paid plans)</strong>
+                        </td>
+                        <td>There are a option (premium plan) for hiring a PT for better experience
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><strong>PT feedback and rating</strong>
+                        </td>
+                        <td>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><strong>AI Trainer version</strong>
+                        </td>
+                        <td>Besides real life person trainer, AI is used to help the trainer in helping the user and
+                            also in managing their
+                            work
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><strong>Fitness wearables</strong>
+                        </td>
+                        <td>Fitness wearables are for more accurate statistics for better user analysis.
+                        </td>
+                    </tr>
+                </table>
+                <h4>General limits</h4>
+                <ul>
+                    <li>Communication is another limit for us. We are not usually at school, so we usually communicate
+                        on the internet, which might be inefficient.</li>
+                    <li>Risk management while running the project is challenging because we have little experience
+                        working on a project before.</li>
+                    <li>Human resource management is challenging. We are a small team with a limited number of people.
+                        Workload distribution is a complicated task for us.</li>
+                </ul>
+                <h4>Technical limits</h4>
+                <ul>
+                    <li>All the features require a wide range of technical knowledge, such as programming languages
+                        (Objective-C, Java, C), design fundamentals, software compatibility, etc. So it is impossible to
+                        create fully functional features using correct technical knowledge in a limited time. </li>
+                    <li>The product requires an image analysis and artificial intelligence function but we do not have
+                        enough knowledge to develop that function.</li>
+                    <li>Wearables need to be produced physically so it is out of our scope for the moment.</li>
+                </ul>
+            </div>
+
+            <!--Tools and technologies-->
+            <section class="tools-and-technologies">
+                <h3>Tools and technologies</h3>
+                <p class="text-paragraph">
+                    This project is about developing a cross-platform application that requires a large combination of
+                    tools and technologies to develop the product. We divided the products into groups based on their
+                    purpose (or group of tasks):
+                </p>
+                <div>
+                    <h4>Project management tools</h4>
+                    <p class="text-paragraph">
+                        Tools: Google Drive; Google Docs; Google Sheets; GitHub
+                    </p>
+                    <p class="text-paragraph">
+                        Google Cloud and other Google products are mainly for making documents like reports, meeting
+                        minutes and presentation scripts and storing those documents on the cloud. GitHub is for storing
+                        and a shared workspace for source code from the application and group’s website also.
+                    </p>
+                </div>
+                <div>
+                    <h4>UI and UX design tools</h4>
+                    <p class="text-paragraph">
+                        Tools: Adobe Photoshop (Version 24.1); Adobe Illustrator (Version 27.1.1); Figma (Version 9.0);
+                        Adobe XD (Version 55.2.12)
+                    </p>
+                    <p>
+                        UI and UX are critical parts of our project, so choosing the right tools is essential. For
+                        graphics, we use Adobe Photoshop and Adobe Illustrator. These are the most popular design tools
+                        right now on the market, so there is no doubt that these are the right tools for designing
+                        graphics for the UI. There is an alternative tool that we found beneficial recently - Figma.
+                        From the graphics above, we need a tool that combines all the graphics into the actual interface
+                        for the app; our choice is Adobe XD. Adobe XD is the tool for visualizing how our user interface
+                        interacts with the user experience. This helps the business department manage the business
+                        requirements, and the technical department develops the UI and UX technically.
+                    </p>
+                </div>
+                <div>
+                    <h4>Application development tools</h4>
+                    <p class="text-paragraph">
+                        Tools: Xcode (Version 14.2); Android Studio Dolphin (Version 2021.3.1); ReactNative (Version
+                        0.70); Visual Studio Code (Version 1.74)
+                    </p>
+                    <p class="text-paragraph">
+                        Our application is a cross-platform application, so there are different tools for different
+                        platforms.
+                    </p>
+                    <div>
+                        <h5 style="text-decoration: underline;">>>> For the mobile version</h5>
+                        <p class="text-paragraph">
+                            There are two popular operating systems, iOS and Android, so we will use Xcode (for iOS
+                            devices) and Android Studio (for Android devices). These tools are for building the base of
+                            the application.
+                        </p>
+                        <p class="text-paragraph">
+                            After building the base for the application, our choice for building the UI for the
+                            application is React Native. This is an open-source tool developed by the Facebook
+                            community. It is based on JavaScript technology and, more importantly, cross-platform.
+                        </p>
+                    </div>
+                    <div>
+                        <h5 style="text-decoration: underline;">>>> For the web version</h5>
+                        <p class="text-paragraph">
+                            This dynamic website links to our mobile application version, so HTML, CSS and JavaScript
+                            are the best choices for us. The IDE we choose is Visual Studio Code, a free IDE from
+                            Microsoft. There are some additional tools for the database, such as SQL or cloud
+                            technologies, but at this phase of the project, we intend on building the website version so
+                            that we will have research later.
+                        </p>
+                    </div>
+                </div>
+                <div>
+                    <h4>Advanced technologies</h4>
+                    <p class="text-paragraph">
+                        Image analysis is the main technology for our product. This technology helps us analyze the
+                        correctness of the exercises when the user is working out and calculating the amount of food.
+                    </p>
+                    <p class="text-paragraph">
+                        Artificial Intelligence will be applied to improve the quality of our product's programs. It
+                        works as a trainer independently and also as an assistant for the natural person trainer.
+                    </p>
+                </div>
+            </section>
+
+            <!--Testing-->
+            <div>
+                <h3>Testing</h3>
+                <p>
+                    Our group tried avoiding a giant bug or problem after the release. We expected that finding and
+                    resolving bugs in the development process would increase development and operational efficiency
+                    rather
+                    than creating bugs after our project releases. We referred to "AGILE DEVELOPMENT CYCLE" to make
+                    specific
+                    software.
+                </p>
+                <p>
+                    The reason why our group decided to use the "AGILE DEVELOPMENT CYCLE" is that it requires continuous
+                    and
+                    continuous interaction and debugging. In addition, these short-period interactions will allow all
+                    our
+                    team members to participate continuously in the debugging process, enhancing their understanding of
+                    the
+                    project and ensuring that they remember the project's progress. This cycle should be implemented
+                    whenever there are new changes or functionality additions to our website.
+                </p>
+                <p>
+                    We made a requirement to distinguish whether our test was successful or unsuccessful. We provide an
+                    example of the website's requirements (expected results) by referring to the Behavior-driven
+                    development
+                    (BDD) model. The defined conditions of these dictionaries aim to be as clear and objective as
+                    possible
+                    to reduce confusion. As a result, these conditions (expected results) aim to help provide the tester
+                    with clear acceptance criteria.
+                </p>
+            </div>
         </div>
     </div>
+
+    <!--References-->
+    <section class="references">
+        <h1 class="grad-heading">References</h1>
+        <ol>
+            <li>Shattuck, M. 2017, Control diet, weight in diabetes fight: As rates of obesity increase, so too do rates
+                of Type 2 diabetes, Appleton, Wis.</li>
+            <li>Armstrong, S. & Wong, C. (2019) Physical Activity Interventions Improve Quality of Life of Children With
+                Obesity: Should We Expect Them to Also Decrease Body Mass Index? Journal of adolescent health. [Online]
+                65 (3), 309–310.</li>
+            <li>Jimin C (2022) Project background [Assignment 1 for COSC2083], RMIT University Vietnam, Ho Chi Minh
+                City.</li>
+            <li>Minh P (2022) Timetable [Assignment 1 for COSC2083], RMIT University Vietnam, Ho Chi Minh City.</li>
+            <li>Minh P (2022) Scope [Assignment 1 for COSC2083], RMIT University Vietnam, Ho Chi Minh City.</li>
+            <li>Minh P (2022) Risks [Assignment 1 for COSC2083], RMIT University Vietnam, Ho Chi Minh City.</li>
+            <li>Minh P (2022) Group communication [Assignment 1 for COSC2083], RMIT University Vietnam, Ho Chi Minh
+                City.</li>
+            <li><a
+                    href="https://www.linkedin.com/learning-login/share?account=2104756&forceAccount=false&redirect=https%3A%2F%2Fwww.linkedin.com%2Flearning%2Fagile-development-practices%3Ftrk%3Dshare_ent_url%26shareId%3DxnpzOZmcTsyOQhf6ZCw86Q%253D%253D"></a>Ferrone
+                H (2017) ‘Agile Development Practices’, linkedin.com, accessed 29 December 2022. </li>
+            <li>North, Dan (March 2006). "Introducing BDD". Dan North.</li>
+            <li><a href="https://www.digite.com/agile/acceptance-test-driven-development-atdd/"></a>How ATDD Guides You
+                in Collaboratively Creating User-Centric Applications, digite website, accessed 29 December 2022. </li>
+            <li><a href="https://www.browserstack.com/guide/software-testing-methodologies"></a>Shormistha Chatterjee
+                (2022), What is Test Methodology? (With 7 Methodologies), BrowserStack website, accessed 29 December
+                2022.</li>
+            <li><a href="https://www.scnsoft.com/software-testing/regression-testing-in-agile-development"></a>Oksana
+                Litvinova (2017), Optimizing Regression Testing in Agile Development, ScienceSoft website, accessed 29
+                December 2022.</li>
+            <li><a href="https://www.indeed.com/career-advice/career-development/testing-projects"></a>Indeed Editorial
+                Team (2021), 11 Methods for Software Testing Projects, indeed website, accessed 29 December 2022.</li>
+            <li><a href="https://www.velvetech.com/blog/mobile-app-development-team-structure/"></a>Matthew C (2022), Mobile App Development Team: Structure and Roles, Velvetech website, accessed 03 January 2023.</li>
+            <li><a href="https://au.hudson.com/employers/recruitment/project-management/business-analyst-job-description/#:~:text=Business%20analysts%20responsibilities&text=Gathering%2C%20validating%20and%20documenting%20business%20requirements%E2%80%8B.&text=Modelling%20business%20processes%20and%20identifying,solutions%20and%20outlining%20business%20impacts."></a>Hudson Specialist Recruitment, Business Analyst Job Description, Hudson website, accessed 03 January 2023.</li>
+            <li><a href="https://www.toptal.com/app/job-description"></a>Toptal (2022), Mobile App Developer Job Description Template, Toptal website, accessed 03 January 2023.</li>
+            <li><a href="https://resources.workable.com/ui-ux-designer-job-description#:~:text=UI%20UX%20designers%20create%20the,also%20process%20flows%20or%20sitemaps."></a>Resource for employer (2022), UI/UX Designer Job Description Template, Resource for employer website, accessed 03 January 2023.</li>
+            <li><a href="https://resources.workable.com/qa-engineer-job-description#:~:text=A%20QA%20Engineer%20is%20a,medical%20devices%20and%20food%2Fbeverage."></a>Resource for employer (2022), Quality Assurance Engineer Job Description Template, Resource for employer website, accessed 03 January 2023. </li>
+            <li><a href="https://resources.workable.com/web-developer-job-description#:~:text=A%20Web%20Developer%20is%20in,and%20update%20websites%20as%20necessary."></a>Resource for employer (2022), Web Developer Job Description Template, Resource for employer website, accessed 03 January 2023.</li>
+        </ol>
+    </section>
 </body>
 
 </html>

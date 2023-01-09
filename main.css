@@ -1,0 +1,109 @@
+@font-face {
+    font-family: Poppins;
+    src: url(Font/Poppins/Poppins-Regular.ttf);
+}
+
+@font-face {
+    font-family: Poppins;
+    src: url(Font/Poppins/Poppins-Bold.ttf);
+    font-weight: bold;
+}
+
+/*Body styling*/
+body {
+    font-family: Poppins;
+    background-color: #ffff;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+table,
+th,
+td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+.phase-headers {
+    background-color: #42554F;
+    text-align: center;
+    color: white;
+}
+
+.phase-cells {
+    height: 50px;
+}
+
+th,
+td {
+    padding: 14px;
+}
+
+/*task color classes*/
+.completed-task {
+    background-color: #ecffdc;
+}
+
+.in-progress-task {
+    background-color: #ffe5d4;
+}
+
+.havent-started-task {
+    background-color: #fa8072;
+}
+
+.phase-timetable {
+    width: 100%;
+}
+
+/*Gradient background for headers*/
+.grad-heading {
+    background-image: linear-gradient(to right, #E5EBB2 0%, #C0EA6A 100%);
+    margin-left: 20%;
+    margin-right: 20%;
+    padding: 15px 45px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: #42554F;
+    font-style: bold;
+    font-size: 20px;
+    box-shadow: 0 0 20px #eee;
+    border-radius: 10px;
+    display: block;
+}
+
+.grad-heading:hover {
+    background-position: right center;
+    color: #fff;
+    text-decoration: none;
+}
+
+/*Normal text paragraph styling*/
+.text-paragraph {
+    text-align: justify;
+    line-height: 2;
+}
+
+/*Personal text paragraph styling*/
+.self-text {
+    text-align: justify;
+    font-style: italic;
+    line-height: 2;
+}
+
+/*Profile picture styling*/
+div.profile-pic {
+    float: left;
+    width: 20%;
+    margin-right: 5%;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 25px;
+}
+
+div.information {
+    text-align: center;
+    padding: 10px 20px;
+}
