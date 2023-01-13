@@ -182,14 +182,13 @@ td {
 /*Personal text paragraph styling*/
 .self-text {
     text-align: justify;
-    font-style: italic;
     line-height: 2;
 }
 
 /*Profile picture styling*/
 div.profile-pic {
     float: left;
-    width: 200px;
+    width: 250px;
     margin-right: 5%;
     background-color: white;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -199,7 +198,7 @@ div.profile-pic {
 div.information {
     text-align: center;
     padding: 10px 20px;
-    font-size: 12px;
+    font-size: 14px;
 }
 
 .grid-list {
@@ -207,3 +206,7 @@ div.information {
     grid-template-columns: repeat(2, 1fr);
     column-gap: 2rem;
   }
+
+.phase-title {
+  text-align: center;
+}
