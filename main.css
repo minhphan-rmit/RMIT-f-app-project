@@ -30,7 +30,7 @@ img {vertical-align: middle;}
   width: auto;
   padding: 16px;
   margin-top: -22px;
-  color: white;
+  color: #42554F;
   font-weight: bold;
   font-size: 18px;
   transition: 0.6s ease;
@@ -42,11 +42,6 @@ img {vertical-align: middle;}
 .next {
   right: 0;
   border-radius: 3px 0 0 3px;
-}
-
-/* On hover, add a black background color with a little bit see-through */
-.prev:hover, .next:hover {
-  background-color: rgba(0,0,0,0.8);
 }
 
 /* Caption text */
@@ -105,8 +100,8 @@ img {vertical-align: middle;}
 body {
     font-family: Poppins;
     background-color: #ffff;
-    margin-left: 20%;
-    margin-right: 20%;
+    margin-left: 25%;
+    margin-right: 25%;
     margin-top: 5mm;
 }
 
@@ -151,7 +146,7 @@ td {
 
 /*Gradient background for headers*/
 .grad-heading {
-    background-image: linear-gradient(to right, #E5EBB2 0%, #C0EA6A 100%);
+    background-image: linear-gradient(to right, #C0EA6A 0%, #E5EBB2 100%);
     margin-left: 20%;
     margin-right: 20%;
     padding: 15px 45px;
@@ -163,7 +158,7 @@ td {
     font-style: bold;
     font-size: 20px;
     box-shadow: 0 0 20px #eee;
-    border-radius: 10px;
+    border-radius: 20px;
     display: block;
 }
 
@@ -171,6 +166,29 @@ td {
     background-position: right center;
     color: #fff;
     text-decoration: none;
+}
+
+/*Gradient background for headers (smaller)*/
+.grad-heading-small {
+  background-image: linear-gradient(to right, #C0EA6A 0%, #E5EBB2 100%);
+  margin-left: 30%;
+  margin-right: 30%;
+  padding: 15px 45px;
+  text-align: center;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: #42554F;
+  font-style: bold;
+  font-size: 18px;
+  box-shadow: 0 0 20px #eee;
+  border-radius: 20px;
+  display: block;
+}
+
+.grad-heading-small:hover {
+  background-position: right center;
+  color: #fff;
+  text-decoration: none;
 }
 
 /*Normal text paragraph styling*/
@@ -188,7 +206,7 @@ td {
 /*Profile picture styling*/
 div.profile-pic {
     float: left;
-    width: 250px;
+    width: 200px;
     margin-right: 5%;
     background-color: white;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -209,4 +227,16 @@ div.information {
 
 .phase-title {
   text-align: center;
+}
+
+.divider {
+  border: 1px solid #42554F;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.phase-divider {
+  border: 1px dashed #42554F;
+  margin-top: 25px;
+  margin-bottom: 25px;
 }
