@@ -233,10 +233,21 @@ div.information {
   border: 1px solid #42554F;
   margin-top: 50px;
   margin-bottom: 50px;
+  margin-left: -100%;
+  margin-right: -100%;
 }
 
 .phase-divider {
   border: 1px dashed #42554F;
   margin-top: 25px;
   margin-bottom: 25px;
+}
+
+footer {
+  margin-left: -100%;
+  margin-right: -100%;
+  text-align: center;
+  padding: 3px;
+  background-color: #42554F;
+  color: white;
 }
