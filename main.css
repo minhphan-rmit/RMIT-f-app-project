@@ -10,6 +10,61 @@
     font-weight: bold;
 }
 
+.navbar {
+  list-style-type: none;
+  margin-left: -25%;
+  margin-right: -25%;
+  margin-top: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #42554F;
+  position: fixed;
+  width: 100%;
+}
+
+.navbar-item {
+  float: left;
+}
+
+.navbar-item a, .dropbtn {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.navbar-item a:hover, .dropdown:hover .dropbtn {
+  background-color: #222c29;
+}
+
+li.dropdown {
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #C0EA6A;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {background-color: #C0EA6A;}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
 * {box-sizing: border-box}
 body {font-family: Poppins, sans-serif; margin:0}
 .mySlides {display: none}
@@ -102,7 +157,6 @@ body {
     background-color: #ffff;
     margin-left: 25%;
     margin-right: 25%;
-    margin-top: 5mm;
 }
 
 table,
@@ -230,11 +284,13 @@ div.information {
 }
 
 .divider {
-  border: 1px solid #42554F;
-  margin-top: 50px;
-  margin-bottom: 50px;
-  margin-left: -100%;
-  margin-right: -100%;
+  border: 1px solid #737373;
+}
+
+.navbar-stop {
+  border: solid #ffff;
+  padding-top: 50px;
+  padding-bottom: -50px;
 }
 
 .phase-divider {
