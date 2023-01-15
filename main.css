@@ -1,13 +1,13 @@
 /*Poppins font family create*/
 @font-face {
-    font-family: Poppins;
-    src: url(Font/Poppins/Poppins-Regular.ttf);
+  font-family: Poppins;
+  src: url(Font/Poppins/Poppins-Regular.ttf);
 }
 
 @font-face {
-    font-family: Poppins;
-    src: url(Font/Poppins/Poppins-Bold.ttf);
-    font-weight: bold;
+  font-family: Poppins;
+  src: url(Font/Poppins/Poppins-Bold.ttf);
+  font-weight: bold;
 }
 
 .navbar {
@@ -26,7 +26,8 @@
   float: left;
 }
 
-.navbar-item a, .dropbtn {
+.navbar-item a,
+.dropbtn {
   display: block;
   color: white;
   text-align: center;
@@ -34,7 +35,8 @@
   text-decoration: none;
 }
 
-.navbar-item a:hover, .dropdown:hover .dropbtn {
+.navbar-item a:hover,
+.dropdown:hover .dropbtn {
   background-color: #222c29;
 }
 
@@ -47,7 +49,7 @@ li.dropdown {
   position: absolute;
   background-color: #C0EA6A;
   min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
   z-index: 1;
 }
 
@@ -59,16 +61,30 @@ li.dropdown {
   text-align: left;
 }
 
-.dropdown-content a:hover {background-color: #C0EA6A;}
+.dropdown-content a:hover {
+  background-color: #C0EA6A;
+}
 
 .dropdown:hover .dropdown-content {
   display: block;
 }
 
-* {box-sizing: border-box}
-body {font-family: Poppins, sans-serif; margin:0}
-.mySlides {display: none}
-img {vertical-align: middle;}
+* {
+  box-sizing: border-box
+}
+
+body {
+  font-family: Poppins, sans-serif;
+  margin: 0
+}
+
+.mySlides {
+  display: none
+}
+
+img {
+  vertical-align: middle;
+}
 
 /* Slideshow container */
 .slideshow-container {
@@ -78,7 +94,8 @@ img {vertical-align: middle;}
 }
 
 /* Next & previous buttons */
-.prev, .next {
+.prev,
+.next {
   cursor: pointer;
   position: absolute;
   top: 50%;
@@ -131,7 +148,8 @@ img {vertical-align: middle;}
   transition: background-color 0.6s ease;
 }
 
-.active, .dot:hover {
+.active,
+.dot:hover {
   background-color: #717171;
 }
 
@@ -142,84 +160,94 @@ img {vertical-align: middle;}
 }
 
 @keyframes fade {
-  from {opacity: .4} 
-  to {opacity: 1}
+  from {
+    opacity: .4
+  }
+
+  to {
+    opacity: 1
+  }
 }
 
 /* On smaller screens, decrease text size */
 @media only screen and (max-width: 300px) {
-  .prev, .next,.text {font-size: 11px}
+
+  .prev,
+  .next,
+  .text {
+    font-size: 11px
+  }
 }
 
 /*Body styling*/
 body {
-    font-family: Poppins;
-    background-color: #ffff;
-    margin-left: 25%;
-    margin-right: 25%;
+  font-family: Poppins;
+  background-color: #ffff;
+  margin-left: 25%;
+  margin-right: 25%;
 }
 
 table,
 th,
 td {
-    border: 1px solid black;
-    border-collapse: collapse;
+  border: 1px solid black;
+  border-collapse: collapse;
 }
 
 .phase-headers {
-    background-color: #42554F;
-    text-align: center;
-    color: white;
+  background-color: #42554F;
+  text-align: center;
+  color: white;
 }
 
 .phase-cells {
-    height: 50px;
+  height: 50px;
 }
 
 th,
 td {
-    padding: 14px;
+  padding: 14px;
 }
 
 /*task color classes*/
 .completed-task {
-    background-color: #ecffdc;
+  background-color: #ecffdc;
 }
 
 .in-progress-task {
-    background-color: #ffe5d4;
+  background-color: #ffe5d4;
 }
 
 .havent-started-task {
-    background-color: #fa8072;
+  background-color: #fa8072;
 }
 
 .phase-timetable {
-    width: 100%;
+  width: 100%;
 }
 
 /*Gradient background for headers*/
 .grad-heading {
-    background-image: linear-gradient(to right, #C0EA6A 0%, #E5EBB2 100%);
-    margin-left: 20%;
-    margin-right: 20%;
-    padding: 15px 45px;
-    text-align: center;
-    text-transform: uppercase;
-    transition: 0.5s;
-    background-size: 200% auto;
-    color: #42554F;
-    font-style: bold;
-    font-size: 20px;
-    box-shadow: 0 0 20px #eee;
-    border-radius: 20px;
-    display: block;
+  background-image: linear-gradient(to right, #C0EA6A 0%, #E5EBB2 100%);
+  margin-left: 20%;
+  margin-right: 20%;
+  padding: 15px 45px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: #42554F;
+  font-style: bold;
+  font-size: 20px;
+  box-shadow: 0 0 20px #eee;
+  border-radius: 20px;
+  display: block;
 }
 
 .grad-heading:hover {
-    background-position: right center;
-    color: #fff;
-    text-decoration: none;
+  background-position: right center;
+  color: #fff;
+  text-decoration: none;
 }
 
 /*Gradient background for headers (smaller)*/
@@ -247,37 +275,37 @@ td {
 
 /*Normal text paragraph styling*/
 .text-paragraph {
-    text-align: justify;
-    line-height: 2;
+  text-align: justify;
+  line-height: 2;
 }
 
 /*Personal text paragraph styling*/
 .self-text {
-    text-align: justify;
-    line-height: 2;
+  text-align: justify;
+  line-height: 2;
 }
 
 /*Profile picture styling*/
 div.profile-pic {
-    float: left;
-    width: 200px;
-    margin-right: 5%;
-    background-color: white;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    margin-bottom: 25px;
+  float: left;
+  width: 200px;
+  margin-right: 5%;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-bottom: 25px;
 }
 
 div.information {
-    text-align: center;
-    padding: 10px 20px;
-    font-size: 14px;
+  text-align: center;
+  padding: 10px 20px;
+  font-size: 14px;
 }
 
 .grid-list {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    column-gap: 2rem;
-  }
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 2rem;
+}
 
 .phase-title {
   text-align: center;
